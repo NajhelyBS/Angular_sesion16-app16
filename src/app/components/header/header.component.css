@@ -7,12 +7,18 @@
     color: white;
 }
 
-button {
-    background-color: #2C30AB;
-    color: white;
-    font-weight: 900;
-    box-shadow: 0px 0px 3px 1px #049DE9;
+li {
+    background-color: rgb(22, 13, 107);
+    margin-right: 1em;
+    border-radius: 5px;
+    letter-spacing: 1.4px;
 }
-input {
-    background-color: #5ac8ffce;
+.item{
+    background: #2294ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3374ee, #22aeff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3365ee, #229cff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0.6px  rgb(22, 13, 107);
 }
