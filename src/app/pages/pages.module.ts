@@ -14,6 +14,11 @@ import { BreakComponent } from './break/break.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    HomeComponent,
+    LoginComponent,
+    BreakComponent,
   ]
 })
 export class PagesModule { }

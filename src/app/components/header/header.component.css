@@ -1,0 +1,18 @@
+.navbar-brand {
+    color: white;
+    font-weight: 900;
+}
+
+.nav-link {
+    color: white;
+}
+
+button {
+    background-color: #2C30AB;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0px 0px 3px 1px #049DE9;
+}
+input {
+    background-color: #5ac8ffce;
+}
