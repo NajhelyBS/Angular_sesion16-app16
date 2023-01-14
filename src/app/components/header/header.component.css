@@ -12,6 +12,7 @@ li {
     margin-right: 1em;
     border-radius: 5px;
     letter-spacing: 1.4px;
+    font-weight: 500;
 }
 .item{
     background: #2294ff;  /* fallback for old browsers */

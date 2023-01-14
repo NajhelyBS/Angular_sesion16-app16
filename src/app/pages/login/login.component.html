@@ -1,24 +1,37 @@
 <body>
     
 <main class="d-flex justify-content-center">
-    <form action="" >
+    <div id="container">
+    <form [formGroup]="Login" (submit)="send()">
         
-        <h1>Login</h1>
+        <h1 class="mb-3">Login</h1>
         <div class="input-group mt-4 mb-4" id="group">
             <span class="input-group-text" id="basic-addon1">Email address: </span>
-            <input id="input1" #input1 type="email" class="form-control"  >
+            <input id="input1" #input1 type="email" class="form-control" formControlName="email">
         </div>
 
         <div class="input-group mt-4 mb-3" id="group">
             <span class="input-group-text" id="basic-addon1">Password: </span>
-            <input id="input2" #input2 type="password" class="form-control" >
+            <input id="input2" #input2 type="password" class="form-control" formControlName="password">
         </div>
 
         <div class="b1 mt-5 mb-3">
-        <button class="w-100 btn btn-lg btn-outline-primary" type="button" >Log In</button>
+        <button class="w-100 btn btn-lg btn-outline-primary" 
+        [disabled]="Login.invalid"
+        type="button" 
+        (click)="LogIn()">Log In</button>
         </div>
 
     </form>
+
+    <div class="mt-4" *ngIf="show">
+        <h1 class="text-center">Bienvenido!</h1>
+       
+    </div>
+
+</div>
+
+   
     </main>
 </body>
 

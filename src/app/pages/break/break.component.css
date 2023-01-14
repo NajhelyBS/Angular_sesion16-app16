@@ -1,0 +1,29 @@
+
+  .page404 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(22, 12, 155, 0.425);
+    padding: 4em;
+    border-radius: 10px;
+     }
+
+  .page404 h3, .page404 p {
+    color: white;
+    text-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+
+  }
+  .page404 h3 {
+    font-size: 10em;
+    margin: 0;
+    letter-spacing: 0.2em;
+    padding-left: 0.2em;
+  }
+  .page404 p {
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    margin-top: 0;
+  }
+  
